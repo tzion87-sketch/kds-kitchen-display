@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "KDS Kitchen Display",
+    "slug": "kds-kitchen-display",
+    "version": "1.0.1",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nayax.kds"
+    },
+    "android": {
+      "package": "com.nayax.kds",
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "WAKE_LOCK"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#4CAF50"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "74c8c420-6cb9-4f37-8af4-b67470b8f1b3"
+      }
+    }
+  }
+}
